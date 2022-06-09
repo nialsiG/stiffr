@@ -1,0 +1,15 @@
+Package: stiffr
+Type: Package
+Title: Converting Load vs. Displacement Data Into Physical Properties
+Version: 0.1.0
+Authors@R: person(given = "Ghislain", family = "Thiery", role = c("aut", "cre"), email = "ghislain.thiery@ntymail.com")
+Description: The R package 'stiffr' converts load vs. time or displacement data into physical properties (hardness, toughness, Young’s modulus, strength...)
+    It also allows to build load vs. displacement curves.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+RoxygenNote: 7.1.1
+Imports: 
+    plotly,
+    ggplot2
